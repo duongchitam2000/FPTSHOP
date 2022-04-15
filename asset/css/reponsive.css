@@ -12,6 +12,23 @@
     .menu-mobile-tablet{
         display: none;
     }
+    .grid.wide.product {
+    width: 100%;
+    /* padding: 0 5px; */
+    }
+    .title-product {
+    font-size: 170%;
+    font-weight: 600;
+    padding: 10px 15px;
+    }
+    .product-list-tab-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    }
+    .product-card-item {
+    padding: 10px 15px;
+}
 }
 
 
@@ -110,6 +127,8 @@
     .footer-1, .footer-2, .footer-3, .footer-4{
         margin: 20px 0;
     }
+    /*product*/
+
 
 }
 
@@ -117,7 +136,41 @@
 /* tablet */
 @media (max-width: 1023px) and (min-width: 740px) {
     
-    
+    /*product*/
+    .wapper-silder.page{
+    height: 250px;
+    }
+    .main-silder.page{
+    height: 250px;
+    }
+    .item-silder.page img {
+        height: 100%;
+    }
+    .grid.silder{
+        min-height: 250px;
+    }
+    .next.page, .back.page {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    top: 50%;
+    }
+    .grid.wide.product {
+    width: 100%;
+    }
+        span.tab-title {
+    font-size: 90%;
+    }
+    .product-list-tab-item {
+    font-weight: 800;
+    font-size: 85%;
+    border: none;
+    padding: 5px 3px;
+    }
+    .form-check-label {
+    font-size: 95%;
+    }
+
 }
 
 
@@ -129,5 +182,51 @@
     .footer-1, .footer-2, .footer-3, .footer-4{
         text-align: center;
     }
-
+    /*product*/
+      .wapper-silder.page{
+    height: 200px;
+    }
+    .main-silder.page{
+    height: 200px;
+    }
+        .item-silder.page {
+        height: 200px;
+    }
+    .item-silder.page img {
+        height: 196px;
+    }
+    .grid.silder{
+        min-height: 200px;
+    }
+    .next, .back {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    top: 34%;
+    }
+        span.tab-title {
+    font-size: 90%;
+    }
+    .product-list-tab-item {
+    font-weight: 800;
+    font-size: 70%;
+    border: none;
+    padding: 5px 1px;
+    }
+    .sidebar-product {
+    padding: 0 5px;
+    }
+    .pagination-item {
+    display: inline-flex;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999;
+    margin-right: 7px;}
+    .title-product-detail{
+        font-size: 90%;
+    }
 }
